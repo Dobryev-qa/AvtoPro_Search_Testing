@@ -1,23 +1,24 @@
-# # AvtoPro – Search Functionality Testing
+# AvtoPro – Search Functionality Testing
 
 ## Project Overview
 
-This repository contains QA artifacts created as part of a **test assignment during a QA interview**.  
-The goal was to analyze and test the **main search functionality** of the AvtoPro website.
+This repository contains QA artifacts created as part of a test assignment during a QA interview.  
+The goal of the task was to analyze and test the main search functionality of the AvtoPro website.
 
 ---
 
 ## Application Under Test
 
-- **Website:** https://avto.pro/
-- **Test Object:** Main search functionality
-- **Testing Date:** 15.12.2025
+- Website: https://avto.pro/
+- Test Object: Main search functionality
+- Testing Date: 15.12.2025
 
 ---
 
 ## Test Scope
 
 The following search scenarios were analyzed and tested:
+
 - Search by spare part name
 - Search suggestions (autocomplete)
 - Search by part code / article number
@@ -32,27 +33,27 @@ The following search scenarios were analyzed and tested:
 
 ## Test Artifacts
 
-### 📘 User Stories
+### User Stories
 - [User Stories](./User_Stories.md)
 
-### ☑️ Checklists
-- [Positive Test Cases](./Checklist_Positive.md)
-- [Negative Test Cases](./Checklist_Negative.md)
+### Checklists
+- [Positive Test Scenarios](./Checklist_Positive.md)
+- [Negative Test Scenarios](./Checklist_Negative.md)
 
-### 🐞 Bug Reports
+### Bug Reports
 - [Bug_001 – Search does not handle typos correctly](./Bug_Reports/Bug_001_Typo_Search.md)
-- [Bug_002 – Search hangs on very long input (504 error)](./Bug_Reports/Bug_002_Long_Input_504.md)
+- [Bug_002 – Search hangs on very long input (HTTP 504)](./Bug_Reports/Bug_002_Long_Input_504.md)
 
 ---
 
 ## Testing Approach
 
-During testing the following techniques were applied:
+During testing, the following test design techniques were applied:
+
 - Boundary Value Analysis
 - Equivalence Partitioning
 - Pairwise Testing (filters)
 - Edge Case Testing
 
 Browser DevTools were used to analyze network requests and server responses.  
-During edge case testing, a server error (HTTP 504) was identified for very long search input.
-
+During edge case testing, a server error (HTTP 504) was identified when submitting very long search input.
