@@ -41,8 +41,8 @@ The following search scenarios were analyzed and tested:
 - [Negative Test Scenarios](./Checklist_Negative.md)
 
 ### Bug Reports
-- [Bug_001 – Search does not handle typos correctly](./Bug_Reports/Bug_001.md)
-- [Bug_002 – Search hangs on very long input (HTTP 504)](./Bug_Reports/Bug_002.md)
+- [Bug_001 – Search does not handle typos correctly](https://github.com/Dobryev-qa/AvtoPro_Search_Testing/blob/main/Bug_001.md)
+- [Bug_002 – Search hangs on very long input (HTTP 504)](https://github.com/Dobryev-qa/AvtoPro_Search_Testing/blob/main/Bug_002.md)
 
 ---
 
